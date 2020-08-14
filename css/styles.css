@@ -1,0 +1,284 @@
+html,
+body,
+div,
+span,
+h1,
+h2,
+h3,
+p,
+a,
+img,
+i,
+ul,
+li,
+form,
+label,
+footer,
+header,
+nav {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+}
+
+html{
+	scroll-behavior: smooth;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+footer,
+header,
+nav,
+section {
+	display: block;
+}
+
+body {
+	line-height: 1;
+	font-family: "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN", "Hiragino Sans", sans-serif;
+}
+
+ul,
+li {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+blockquote,
+q {
+	quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+	content: '';
+	content: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+p,
+a,
+li {
+	font-size: 18px;
+}
+
+section {
+	margin-bottom: 60px;
+}
+
+/* ヘッダーはここから */
+.header{
+    background-color: #efefef;
+    position: relative;
+}
+
+.header-logo{
+    text-align: center;
+    padding-top: 40px;
+}
+
+.header-logo a{
+    color:rgb(106, 106, 153);
+}
+
+.main-logo a{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.sub-logo{
+    margin-top: 20px;
+}
+
+.sub-logo a{
+    font-size: 18px;
+    color: #aaa;
+}
+
+.header-list{
+    display: flex;
+    width: 80%;
+    margin: 40px auto 0;
+    justify-content: space-between;
+    padding-bottom: 50px;
+    font-weight: 200;
+}
+
+.list-content{
+    font-size: 14px;
+    color: #aaa;
+    cursor: pointer;
+    z-index: 100;
+}
+
+/* 波のアニメーション */
+svg{
+    width: 100%;
+    position: absolute;
+    top: 100px;
+}
+
+/* メイン部分ここから */
+.main{
+    display: flex;
+    margin-top: 100px;
+}
+
+.main-pic{
+    width: 60%;
+    margin-right: 5%;
+    margin-left: 3%;
+}
+
+.main-pic img{
+    width: 100%;
+}
+
+.main-text{
+    width: 30%;
+    margin-right: 2%;
+    margin-top: 20px;
+}
+
+.main-text h2{
+    font-size: 20px;
+    color:rgb(106, 106, 153);
+}
+
+.main-text h3{
+    font-size: 14px;
+    font-weight: normal;
+    margin: 30px 0;
+    color: #bbb;
+}
+
+.main-text p{
+    font-size: 14px;
+    color: #ccc;
+    font-weight: 100;
+}
+
+.btn{
+    background-color: #BF8484;
+    text-align: center;
+    width: 80px;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: #be6262;
+}
+.btn a{
+    color: #fff;
+    font-weight: 200;
+    font-size: 14px;
+}
+
+/* メンバーズ部分ここから */
+.members{
+    display: flex;
+    margin-top: 100px;
+}
+
+.members-text{
+    width: 30%;
+    margin-right: 2%;
+    margin-left: 3%;
+}
+
+.members-text h2{
+    font-size: 20px;
+    color:rgb(106, 106, 153);
+}
+
+.members-text h3{
+    font-size: 14px;
+    font-weight: normal;
+    margin: 30px 0 12px;
+    color: #999;
+}
+
+.members-text p{
+    font-size: 14px;
+    color: #ccc;
+    font-weight: 100;
+}
+/* コンタクト部分ここから */
+.contact{
+    margin: 0 auto;
+    width: 70%;
+    text-align: center;
+}
+
+.contact h2{
+    font-size: 20px;
+    color:rgb(106, 106, 153);
+}
+
+.contact h3{
+    font-size: 14px;
+    font-weight: normal;
+    margin: 10px 0 30px;
+    color: #bbb;
+}
+
+.contact-form li{
+    text-align: center;
+    width: 100%;
+}
+
+.input {
+	margin-bottom: 30px;
+    border: 1px solid #999;
+    width: 100%;
+    padding: 5px 5px;
+}
+
+.contact li p{
+    margin: 0 auto;
+} 
+
+/* フッター部分ここから */
+footer{
+    background-color: #efefef;
+    margin-top: 30px;
+}
+
+.sns{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 30px 0;
+    width: 15%;
+}
+
+.sns li a{
+    font-size: 22px;
+}
+
+.gray{
+    color: #888;
+}
+
+.copy{
+    text-align: center;
+    color: #aaa;
+    padding-bottom: 30px;
+}
+
